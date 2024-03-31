@@ -1,11 +1,12 @@
 body {
 	display: flex;
 	flex-direction: column;
-	flex: 1;
+	min-height: 100vh;
 }
 
 body>* {
 	padding-top: 20px;
+	flex: 1;
 }
 
 .header {
@@ -85,7 +86,7 @@ body>* {
 
 .footer {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	background-color: #1F2937;
 	align-items: center;
 	padding: 0 15px;
