@@ -193,3 +193,10 @@ button.second {
 	border: solid 1px #e5e7eb;
 	width: 100px;
 }
+
+@media screen and (max-width: 900px) {
+	.first-page {
+		flex-wrap: wrap-reverse;
+	}
+}
+}
